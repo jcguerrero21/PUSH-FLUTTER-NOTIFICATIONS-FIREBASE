@@ -18,7 +18,8 @@ class PushNotificationProvider {
     List<String> tokenList = new List();
     String token = await _firebaseMessaging.getToken();
     print(token);
-    //fk9wp2EiFXA:cuDlDPrwMuQ:APA91bHxIIawTNEQWS3k_zaFvNXVD35Y29aUoVPhVsicA06S_0Npb8w6Ca4yK4WMZcqh_ucQwQdg2SM5egu3aby6ChTIj1KqZCCwQX85v4IgOMM0HQaf6N3EedJvFyXDUQUg0p2_rYV4
+    //comprobe token
+
     tokenList.add(token);
     print(tokenList);
 
